@@ -9,33 +9,90 @@ Answer the following questions based on your understanding of Python programming
 
 1. Python Basics:
    - What is Python, and what are some of its key features that make it popular among developers? Provide examples of use cases where Python is particularly effective.
+Python is a high-level, interpreted programming language known for its simplicity and readability. Key features include ease of learning, versatility across programming paradigms, a large standard library, a strong community, and seamless integration capabilities.
 
 2. Installing Python:
    - Describe the steps to install Python on your operating system (Windows, macOS, or Linux). Include how to verify the installation and set up a virtual environment.
+Steps to install Python:
+
+Windows: Download installer from python.org, run it, select "Add Python to PATH", and click "Install Now".
+macOS: Use Homebrew (brew install python).
+Linux: Use package manager (sudo apt install python3).]
 
 3. Python Syntax and Semantics:
    - Write a simple Python program that prints "Hello, World!" to the console. Explain the basic syntax elements used in the program.
+# Hello, World! program
+print("Hello, World!")
 
 4. Data Types and Variables:
    - List and describe the basic data types in Python. Write a short script that demonstrates how to create and use variables of different data types.
+# Variables and data types
+num1 = 10
+num2 = 3.5
+name = "Alice"
+is_python_fun = True
+
 
 5. Control Structures:
    - Explain the use of conditional statements and loops in Python. Provide examples of an `if-else` statement and a `for` loop.
+x = 10
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is not greater than 5")
+
 
 6. Functions in Python:
    - What are functions in Python, and why are they useful? Write a Python function that takes two arguments and returns their sum. Include an example of how to call this function.
+# Function to add two numbers
+def add_numbers(a, b):
+    return a + b
+
+# Call the function
+result = add_numbers(5, 3)
+print("Sum:", result)
+
 
 7. Lists and Dictionaries:
    - Describe the differences between lists and dictionaries in Python. Write a script that creates a list of numbers and a dictionary with some key-value pairs, then demonstrates basic operations on both.
+# Function to add two numbers
+def add_numbers(a, b):
+    return a + b
+
+# Call the function
+result = add_numbers(5, 3)
+print("Sum:", result)
+
+
 
 8. Exception Handling:
    - What is exception handling in Python? Provide an example of how to use `try`, `except`, and `finally` blocks to handle errors in a Python script.
+# Exception handling example
+try:
+    x = 10 / 0
+except ZeroDivisionError:
+    print("Division by zero error!")
+finally:
+    print("Execution completed.")
+
 
 9. Modules and Packages:
    - Explain the concepts of modules and packages in Python. How can you import and use a module in your script? Provide an example using the `math` module.
+ # Importing and using a module
+import math
+
+# Calculate square root
+x = math.sqrt(25)
+print("Square root:", x)  # Output: Square root: 5.0
+
 
 10. File I/O:
     - How do you read from and write to files in Python? Write a script that reads the content of a file and prints it to the console, and another script that writes a list of strings to a file.
+# Reading from a file
+with open('filename.txt', 'r') as file:
+    content = file.read()
+    print(content)
+
 
 # Submission Guidelines:
 - Your answers should be well-structured, concise, and to the point.
